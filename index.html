@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IWax Traders | Bed Linen, Comforters & General Items</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-and-title">
+        <img src="images/IWAX TRADERS LOGO.png" 
+             alt="IWax Traders Logo"
+             width="100">
+        <h1>IWax Traders</h1>
+      </div>
+      <p>Your One-Stop Shop for Bedding, Comforters & General Items</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#bedlinen">Bed Linen</a></li>
+        <li><a href="#comforters">Comforters</a></li>
+        <li><a href="#general-items">General Items</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to IWax Traders</h2>
+      <p>We specialize in premium bed linen, cozy comforters, and general items.</p>
+    </section>
+
+    <!-- Bed Linen Section -->
+    <section id="bedlinen">
+      <h2>Bed Linen Collection</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="images/bedlinen1.jpg" 
+               alt="Premium Cotton Bed Linen"
+               loading="lazy">
+          <h3>Premium Cotton Linen</h3>
+          <p>Soft, breathable, and available in multiple sizes.</p>
+        </div>
+        <div class="product-item">
+          <img src="images/bedlinen2.jpg" 
+               alt="Luxury Silk Bed Linen"
+               loading="lazy">
+          <h3>Luxury Silk Linen</h3>
+          <p>Elegant and hypoallergenic.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comforters Section -->
+    <section id="comforters">
+      <h2>Comforters</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="images/comforter1.jpg" 
+               alt="Winter Warmth Bed Comforter"
+               loading="lazy">
+          <h3>Winter Warmth Comforter</h3>
+          <p>Perfect for cold nights.</p>
+        </div>
+        <div class="product-item">
+          <img src="images/comforter2.jpg" 
+               alt="All-Season Lightweight Comforter"
+               loading="lazy">
+          <h3>All-Season Lightweight</h3>
+          <p>Ideal for year-round use.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- General Items Section -->
+    <section id="general-items">
+      <h2>Our General Items</h2>
+      <div class="hours">
+        <h3>Opening Hours</h3>
+        <p>Mon-Sun: 11 AM - 10 PM<br>Public Holidays: Closed</p>
+      </div>
+    </section>
+
+<!-- In Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-wrapper">
+    <form class="modern-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+    <div class="address">
+      <!-- Your existing address content -->
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <div class="address">
+          <p>📍 161 Masukana Street, Pietermaritzburg</p>
+          <p><a href="tel:+271234567890">📞 +27 123 456 7890</a></p>
+          <p><a href="mailto:iwaxtraders@gmail.com">📧 iwaxtraders@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> IWax Traders. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
