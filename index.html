@@ -1,42 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IWax Traders offers premium bed linen, cozy comforters, and general items. Visit us for high-quality bedding solutions in Pietermaritzburg.">
+  <meta name="keywords" content="bed linen, comforters, general items, Pietermaritzburg, IWax Traders">
   <title>IWax Traders | Bed Linen, Comforters & General Items</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
   <header>
     <div class="container">
       <div class="logo-and-title">
-        <img src="IWAX TRADERS LOGO.png" 
-             alt="IWax Traders Logo"
-             width="100">
+        <img src="IWAX TRADERS LOGO.png" alt="IWax Traders Logo - Premium Bedding and General Items" width="100">
         <h1>IWax Traders</h1>
       </div>
       <p>Your One-Stop Shop for Bedding, Comforters & General Items</p>
     </div>
   </header>
 
-  <nav>
+  <!-- Navigation -->
+  <nav aria-label="Main Navigation">
     <div class="container">
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" aria-current="page">Home</a></li>
         <li><a href="#bedlinen">Bed Linen</a></li>
         <li><a href="#comforters">Comforters</a></li>
         <li><a href="#general-items">General Items</a></li>
+        <li><a href="#about-us">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <main class="container">
+  <!-- Main Content -->
+  <main id="main-content" class="container">
     <!-- Home Section -->
     <section id="home">
       <h2>Welcome to IWax Traders</h2>
       <p>We specialize in premium bed linen, cozy comforters, and general items.</p>
+      <a href="#contact" class="cta-btn">Get in Touch</a>
     </section>
 
     <!-- Bed Linen Section -->
@@ -44,16 +53,12 @@
       <h2>Bed Linen Collection</h2>
       <div class="product-list">
         <div class="product-item">
-          <img src="bedlinen1.jpg" 
-               alt="Premium Cotton Bed Linen"
-               loading="lazy">
+          <img src="bedlinen1.jpg" alt="Premium Cotton Bed Linen" loading="lazy">
           <h3>Premium Cotton Linen</h3>
           <p>Soft, breathable, and available in multiple sizes.</p>
         </div>
         <div class="product-item">
-          <img src="bedlinen2.jpg" 
-               alt="Luxury Silk Bed Linen"
-               loading="lazy">
+          <img src="bedlinen2.jpg" alt="Luxury Silk Bed Linen" loading="lazy">
           <h3>Luxury Silk Linen</h3>
           <p>Elegant and hypoallergenic.</p>
         </div>
@@ -65,16 +70,12 @@
       <h2>Comforters</h2>
       <div class="product-list">
         <div class="product-item">
-          <img src="comforter1.jpg" 
-               alt="Winter Warmth Bed Comforter"
-               loading="lazy">
+          <img src="comforter1.jpg" alt="Winter Warmth Bed Comforter" loading="lazy">
           <h3>Winter Warmth Comforter</h3>
           <p>Perfect for cold nights.</p>
         </div>
         <div class="product-item">
-          <img src="comforter2.jpg" 
-               alt="All-Season Lightweight Comforter"
-               loading="lazy">
+          <img src="comforter2.jpg" alt="All-Season Lightweight" loading="lazy">
           <h3>All-Season Lightweight</h3>
           <p>Ideal for year-round use.</p>
         </div>
@@ -90,33 +91,64 @@
       </div>
     </section>
 
-<!-- In Contact Section -->
-<section id="contact">
-  <h2>Contact Us</h2>
-  <div class="contact-wrapper">
-    <form class="modern-form">
-      <div class="form-group">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" required>
+    <!-- About Us Section -->
+    <section id="about-us">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <p>
+          Welcome to <strong>IWax Traders</strong>, your trusted partner for premium bedding, comforters, and general items. 
+          Based in the heart of Pietermaritzburg, we have been serving our community with high-quality products and exceptional 
+          customer service since our inception.
+        </p>
+        <p>
+          At IWax Traders, we believe that a good night's sleep is the foundation of a productive and happy life. That's why 
+          we are committed to providing you with the finest bed linen and comforters, crafted from the best materials to ensure 
+          comfort, durability, and style. Whether you're looking for luxurious silk linens or cozy winter comforters, we have 
+          something to suit every need and preference.
+        </p>
+        <p>
+          Our mission is simple: to make your home a haven of comfort and relaxation. We carefully curate our collection to 
+          offer you a wide range of options that combine functionality with elegance. From soft, breathable cotton to 
+          hypoallergenic fabrics, our products are designed to enhance your sleep experience.
+        </p>
+        <p>
+          What sets us apart is our dedication to quality and customer satisfaction. We work directly with trusted manufacturers 
+          to ensure that every product meets our high standards. Our team is passionate about helping you find the perfect 
+          bedding solutions for your home, and we are always here to assist you with personalized recommendations.
+        </p>
+        <p>
+          Thank you for choosing IWax Traders. We look forward to being a part of your journey to better sleep and a more 
+          comfortable home. Visit us today and discover the difference quality makes!
+        </p>
       </div>
-      <div class="form-group">
-        <label for="email">Your Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="submit-btn">Send Message</button>
-    </form>
-    <div class="address">
-      <!-- Your existing address content -->
-    </div>
-  </div>
-</section>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form class="modern-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required aria-describedby="name-help">
+          <small id="name-help">Please enter your full name.</small>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.678123456789!2d30.123456789012345!3d-29.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDA3JzI0LjQiUyAzMMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sza!4v1234567890123!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="contact-info">
@@ -127,16 +159,40 @@
           <p><a href="mailto:iwaxtraders@gmail.com">📧 iwaxtraders@gmail.com</a></p>
         </div>
       </div>
+      <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
       <div class="copyright">
         <p>&copy; <span id="year"></span> IWax Traders. All rights reserved.</p>
       </div>
     </div>
   </footer>
-  
 
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to Top">↑</button>
+
+  <!-- Inline JavaScript -->
   <script>
     // Auto-update copyright year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Back to Top Button
+    document.addEventListener('scroll', () => {
+      const backToTopButton = document.getElementById('back-to-top');
+      if (window.scrollY > 300) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+
+    document.getElementById('back-to-top').addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   </script>
 </body>
 </html>
