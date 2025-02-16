@@ -3,70 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terms of Service for IWax Traders">
-  <title>Terms of Service | IWax Traders</title>
+  <meta name="description" content="IWax Traders offers premium bed linen, cozy comforters, and general items. Visit us for high-quality bedding solutions in Pietermaritzburg.">
+  <meta name="keywords" content="bed linen, comforters, general items, Pietermaritzburg, IWax Traders">
+  <title>IWax Traders | Bed Linen, Comforters & General Items</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="IWAX TRADERS LOGO.png">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Skip Link -->
   <a href="#main-content" class="skip-link">
     <span class="skip-link-text">Skip to main content</span>
     <span class="skip-link-icon">➡️</span>
   </a>
 
+  <!-- Header -->
   <header>
     <div class="container">
       <div class="logo-and-title">
-        <img src="IWAX TRADERS LOGO.png" alt="IWax Traders Logo" width="100">
+        <img src="IWAX TRADERS LOGO.png" alt="IWax Traders Logo - Premium Bedding and General Items" width="100">
         <h1>IWax Traders</h1>
       </div>
       <p>Your One-Stop Shop for Bedding, Comforters & General Items</p>
     </div>
   </header>
 
+  <!-- Navigation -->
   <nav aria-label="Main Navigation">
     <div class="container">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html#bedlinen">Bed Linen</a></li>
-        <li><a href="index.html#comforters">Comforters</a></li>
-        <li><a href="index.html#general-items">General Items</a></li>
-        <li><a href="index.html#about-us">About Us</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#bedlinen">Bed Linen</a></li>
+        <li><a href="#comforters">Comforters</a></li>
+        <li><a href="#general-items">General Items</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- Main Content -->
   <main id="main-content" class="container">
-    <section>
-      <h2>Terms of Service</h2>
-      <p><strong>Effective Date:</strong> [Insert Date]</p>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Welcome to IWax Traders</h2>
+      <p>We specialize in premium bed linen, cozy comforters, and general items.</p>
+      <a href="#contact" class="cta-btn">Get in Touch</a>
+    </section>
 
-      <h3>1. Acceptance of Terms</h3>
-      <p>By accessing or using the IWax Traders website, you agree to be bound by these Terms.</p>
+    <!-- Bed Linen Section -->
+    <section id="bedlinen">
+      <h2>Bed Linen Collection</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="bedlinen1.jpg" alt="Premium Cotton Bed Linen" loading="lazy">
+          <h3>Premium Cotton Linen</h3>
+          <p>Soft, breathable, and available in multiple sizes.</p>
+        </div>
+        <div class="product-item">
+          <img src="bedlinen2.jpg" alt="Luxury Silk Bed Linen" loading="lazy">
+          <h3>Luxury Silk Linen</h3>
+          <p>Elegant and hypoallergenic.</p>
+        </div>
+      </div>
+    </section>
 
-      <h3>2. Intellectual Property</h3>
-      <p>All content on this website is the property of IWax Traders and protected by copyright laws.</p>
+    <!-- Comforters Section -->
+    <section id="comforters">
+      <h2>Comforters</h2>
+      <div class="product-list">
+        <div class="product-item">
+          <img src="comforter1.jpg" alt="Winter Warmth Bed Comforter" loading="lazy">
+          <h3>Winter Warmth Comforter</h3>
+          <p>Perfect for cold nights.</p>
+        </div>
+        <div class="product-item">
+          <img src="comforter2.jpg" alt="All-Season Lightweight" loading="lazy">
+          <h3>All-Season Lightweight</h3>
+          <p>Ideal for year-round use.</p>
+        </div>
+      </div>
+    </section>
 
-      <h3>3. Product Information</h3>
-      <p>Product descriptions and prices are subject to change without notice.</p>
+    <!-- General Items Section -->
+    <section id="general-items">
+      <h2>Our General Items</h2>
+      <div class="hours">
+        <h3>Opening Hours</h3>
+        <p>Mon-Sun: 11 AM - 10 PM<br>Public Holidays: Closed</p>
+      </div>
+    </section>
 
-      <h3>4. Limitation of Liability</h3>
-      <p>IWax Traders shall not be liable for any indirect damages arising from use of our products or services.</p>
+    <!-- About Us Section -->
+    <section id="about-us">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <p>
+          Welcome to <strong>IWax Traders</strong>, your trusted partner for premium bedding, comforters, and general items. 
+          Based in the heart of Pietermaritzburg, we have been serving our community with high-quality products and exceptional 
+          customer service since our inception.
+        </p>
+        <!-- Rest of about content remains unchanged -->
+      </div>
+    </section>
 
-      <h3>5. Governing Law</h3>
-      <p>These Terms shall be governed by the laws of South Africa.</p>
-
-      <h3>6. Contact Information</h3>
-      <p>
-        📍 161 Masukana Street, Pietermaritzburg<br>
-        📞 +27 123 456 7890<br>
-        📧 iwaxtraders@gmail.com
-      </p>
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form class="modern-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required aria-describedby="name-help">
+          <small id="name-help">Please enter your full name.</small>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="contact-info">
@@ -98,8 +161,10 @@
     </div>
   </footer>
 
+  <!-- Back to Top Button -->
   <button id="back-to-top" aria-label="Back to Top">↑</button>
 
+  <!-- JavaScript -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     document.addEventListener('scroll', () => {
@@ -111,4 +176,4 @@
     });
   </script>
 </body>
-</html>
+      </html>
