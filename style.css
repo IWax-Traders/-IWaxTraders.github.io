@@ -11,8 +11,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  background-color: #ffffff; /* White background */
-  color: #000000; /* Black text */
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .container {
@@ -25,11 +25,11 @@ body {
 /* Skip Link */
 .skip-link {
   position: absolute;
-  top: -100px; /* Move off-screen by default */
+  top: -100px;
   left: 50%;
   transform: translateX(-50%);
-  background: #000000; /* Black background */
-  color: #ffffff; /* White text */
+  background: #000000;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
@@ -45,12 +45,12 @@ body {
 }
 
 .skip-link:focus {
-  top: 20px; /* Bring into view when focused */
+  top: 20px;
   opacity: 1;
 }
 
 .skip-link:hover {
-  background: #333333; /* Dark gray hover */
+  background: #333333;
   transform: translateX(-50%) scale(1.05);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
@@ -61,13 +61,13 @@ body {
 }
 
 .skip-link:hover .skip-link-icon {
-  transform: translateX(5px); /* Animate the icon on hover */
+  transform: translateX(5px);
 }
 
-/* Header Styles */
+/* Header */
 header {
-  background: #000000; /* Black header */
-  color: #ffffff; /* White text */
+  background: #000000;
+  color: #ffffff;
   padding: 2rem 0;
   text-align: center;
 }
@@ -87,7 +87,7 @@ header {
 
 /* Navigation */
 nav {
-  background: #333333; /* Dark gray navigation */
+  background: #333333;
   padding: 1rem 0;
 }
 
@@ -100,7 +100,7 @@ nav ul {
 }
 
 nav a {
-  color: #ffffff; /* White text */
+  color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -108,16 +108,16 @@ nav a {
 }
 
 nav a:hover {
-  background: rgba(255, 255, 255, 0.1); /* Light hover effect */
+  background: rgba(255, 255, 255, 0.1);
   color: #ffffff;
   transform: translateY(-2px);
 }
 
-/* About Us Section */
+/* About Us */
 #about-us {
   margin: 4rem 0;
   padding: 2rem;
-  background: #f9f9f9; /* Light gray background */
+  background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -126,7 +126,7 @@ nav a:hover {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #000000; /* Black text */
+  color: #000000;
 }
 
 .about-content {
@@ -134,7 +134,7 @@ nav a:hover {
   margin: 0 auto;
   line-height: 1.8;
   font-size: 1.1rem;
-  color: #333333; /* Dark gray text */
+  color: #333333;
 }
 
 .about-content p {
@@ -142,10 +142,10 @@ nav a:hover {
 }
 
 .about-content strong {
-  color: #000000; /* Black text for emphasis */
+  color: #000000;
 }
 
-/* Product Sections */
+/* Products */
 .product-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -154,7 +154,7 @@ nav a:hover {
 }
 
 .product-item {
-  background: #ffffff; /* White background */
+  background: #ffffff;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -171,7 +171,7 @@ nav a:hover {
   object-fit: cover;
   border-radius: 5px;
   margin-bottom: 1rem;
-  background: #e0e0e0; /* Light gray placeholder */
+  background: #e0e0e0;
   animation: pulse 1.5s infinite;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -189,7 +189,7 @@ nav a:hover {
 
 /* Contact Form */
 .modern-form {
-  background: #ffffff; /* White background */
+  background: #ffffff;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -202,7 +202,7 @@ nav a:hover {
 label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #000000; /* Black text */
+  color: #000000;
   font-weight: 500;
 }
 
@@ -210,7 +210,7 @@ input,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 2px solid #e0e0e0; /* Light gray border */
+  border: 2px solid #e0e0e0;
   border-radius: 6px;
   font-size: 16px;
   transition: all 0.3s ease;
@@ -218,14 +218,14 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: #000000; /* Black border on focus */
+  border-color: #000000;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   outline: none;
 }
 
 .submit-btn {
-  background: #000000; /* Black button */
-  color: #ffffff; /* White text */
+  background: #000000;
+  color: #ffffff;
   padding: 14px 28px;
   border: none;
   border-radius: 6px;
@@ -237,7 +237,7 @@ textarea:focus {
 }
 
 .submit-btn:hover {
-  background: #333333; /* Dark gray hover */
+  background: #333333;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
@@ -251,8 +251,8 @@ textarea:focus {
 
 /* Footer */
 footer {
-  background: #000000; /* Black footer */
-  color: #ffffff; /* White text */
+  background: #000000;
+  color: #ffffff;
   padding: 30px 0 15px;
   margin-top: 40px;
   position: relative;
@@ -263,7 +263,7 @@ footer {
 }
 
 .contact-info a {
-  color: #ffffff; /* White links */
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -283,15 +283,15 @@ footer {
 
 .newsletter-form input {
   padding: 10px;
-  border: 2px solid #e0e0e0; /* Light gray border */
+  border: 2px solid #e0e0e0;
   border-radius: 6px;
   flex: 1;
   max-width: 300px;
 }
 
 .newsletter-form button {
-  background: #000000; /* Black button */
-  color: #ffffff; /* White text */
+  background: #000000;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 6px;
@@ -300,7 +300,7 @@ footer {
 }
 
 .newsletter-form button:hover {
-  background: #333333; /* Dark gray hover */
+  background: #333333;
   transform: translateY(-2px);
 }
 
@@ -316,14 +316,32 @@ footer {
   opacity: 0.9;
 }
 
-/* Back to Top Button */
+/* Legal Links */
+.legal-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.legal-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.legal-links a:hover {
+  color: #e0e0e0;
+  text-decoration: underline;
+}
+
+/* Back to Top */
 #back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
   padding: 10px 15px;
-  background-color: #000000; /* Black button */
-  color: #ffffff; /* White text */
+  background-color: #000000;
+  color: #ffffff;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -334,7 +352,7 @@ footer {
 }
 
 #back-to-top:hover {
-  background-color: #333333; /* Dark gray hover */
+  background-color: #333333;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
